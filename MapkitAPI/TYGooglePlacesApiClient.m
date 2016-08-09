@@ -8,7 +8,7 @@
 
 #import "TYGooglePlacesApiClient.h"
 #import "TYGoogleAutoCompleteResult.h"
-NSString *const apiKey = @"AIzaSyDchKp5BlxpFd_NOZVI7HgjvzHHm_vkhH0";
+NSString *const apiKey = @"Give your API key here";
 @interface TYGooglePlacesApiClient ()
 
 @property (nonatomic, strong) NSCache *searchResultsCache;
