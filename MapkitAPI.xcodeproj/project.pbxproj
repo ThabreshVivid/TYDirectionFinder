@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00454AEE1D59F18200A3513D /* RouteFinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00454AED1D59F18200A3513D /* RouteFinderViewController.m */; };
+		00454B021D5A18A500A3513D /* TYPlaceSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00454B011D5A18A500A3513D /* TYPlaceSearchViewController.m */; };
+		00454B051D5A18C600A3513D /* TYGooglePlacesApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 00454B041D5A18C600A3513D /* TYGooglePlacesApiClient.m */; };
+		00454B081D5A18D800A3513D /* TYGoogleAutoCompleteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 00454B071D5A18D800A3513D /* TYGoogleAutoCompleteResult.m */; };
+		00454B0B1D5A18E900A3513D /* TYGooglePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 00454B0A1D5A18E900A3513D /* TYGooglePlace.m */; };
 		00DF96781D58BC1E0056022E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DF96771D58BC1E0056022E /* main.m */; };
 		00DF967B1D58BC1E0056022E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DF967A1D58BC1E0056022E /* AppDelegate.m */; };
 		00DF967E1D58BC1E0056022E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DF967D1D58BC1E0056022E /* ViewController.m */; };
@@ -15,6 +20,7 @@
 		00DF96861D58BC1E0056022E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DF96841D58BC1E0056022E /* LaunchScreen.storyboard */; };
 		00DF96911D58BC1E0056022E /* MapkitAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DF96901D58BC1E0056022E /* MapkitAPITests.m */; };
 		00DF969C1D58BC1E0056022E /* MapkitAPIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DF969B1D58BC1E0056022E /* MapkitAPIUITests.m */; };
+		00DF96AA1D58C2400056022E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DF96A91D58C2400056022E /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00454AEC1D59F18200A3513D /* RouteFinderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteFinderViewController.h; sourceTree = "<group>"; };
+		00454AED1D59F18200A3513D /* RouteFinderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteFinderViewController.m; sourceTree = "<group>"; };
+		00454B001D5A18A500A3513D /* TYPlaceSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPlaceSearchViewController.h; sourceTree = "<group>"; };
+		00454B011D5A18A500A3513D /* TYPlaceSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPlaceSearchViewController.m; sourceTree = "<group>"; };
+		00454B031D5A18C600A3513D /* TYGooglePlacesApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGooglePlacesApiClient.h; sourceTree = "<group>"; };
+		00454B041D5A18C600A3513D /* TYGooglePlacesApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGooglePlacesApiClient.m; sourceTree = "<group>"; };
+		00454B061D5A18D800A3513D /* TYGoogleAutoCompleteResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGoogleAutoCompleteResult.h; sourceTree = "<group>"; };
+		00454B071D5A18D800A3513D /* TYGoogleAutoCompleteResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGoogleAutoCompleteResult.m; sourceTree = "<group>"; };
+		00454B091D5A18E900A3513D /* TYGooglePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGooglePlace.h; sourceTree = "<group>"; };
+		00454B0A1D5A18E900A3513D /* TYGooglePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGooglePlace.m; sourceTree = "<group>"; };
 		00DF96731D58BC1E0056022E /* MapkitAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapkitAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DF96771D58BC1E0056022E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00DF96791D58BC1E0056022E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +67,7 @@
 		00DF96971D58BC1E0056022E /* MapkitAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapkitAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DF969B1D58BC1E0056022E /* MapkitAPIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapkitAPIUITests.m; sourceTree = "<group>"; };
 		00DF969D1D58BC1E0056022E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DF96A91D58C2400056022E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DF96AA1D58C2400056022E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +96,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00454AFF1D5A187900A3513D /* AutoComplete */ = {
+			isa = PBXGroup;
+			children = (
+				00454B001D5A18A500A3513D /* TYPlaceSearchViewController.h */,
+				00454B011D5A18A500A3513D /* TYPlaceSearchViewController.m */,
+				00454B031D5A18C600A3513D /* TYGooglePlacesApiClient.h */,
+				00454B041D5A18C600A3513D /* TYGooglePlacesApiClient.m */,
+				00454B061D5A18D800A3513D /* TYGoogleAutoCompleteResult.h */,
+				00454B071D5A18D800A3513D /* TYGoogleAutoCompleteResult.m */,
+				00454B091D5A18E900A3513D /* TYGooglePlace.h */,
+				00454B0A1D5A18E900A3513D /* TYGooglePlace.m */,
+			);
+			name = AutoComplete;
+			sourceTree = "<group>";
+		};
 		00DF966A1D58BC1D0056022E = {
 			isa = PBXGroup;
 			children = (
+				00DF96A91D58C2400056022E /* MapKit.framework */,
 				00DF96751D58BC1E0056022E /* MapkitAPI */,
 				00DF968F1D58BC1E0056022E /* MapkitAPITests */,
 				00DF969A1D58BC1E0056022E /* MapkitAPIUITests */,
@@ -105,6 +139,9 @@
 				00DF967A1D58BC1E0056022E /* AppDelegate.m */,
 				00DF967C1D58BC1E0056022E /* ViewController.h */,
 				00DF967D1D58BC1E0056022E /* ViewController.m */,
+				00454AEC1D59F18200A3513D /* RouteFinderViewController.h */,
+				00454AED1D59F18200A3513D /* RouteFinderViewController.m */,
+				00454AFF1D5A187900A3513D /* AutoComplete */,
 				00DF967F1D58BC1E0056022E /* Main.storyboard */,
 				00DF96821D58BC1E0056022E /* Assets.xcassets */,
 				00DF96841D58BC1E0056022E /* LaunchScreen.storyboard */,
@@ -270,7 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00454B021D5A18A500A3513D /* TYPlaceSearchViewController.m in Sources */,
+				00454AEE1D59F18200A3513D /* RouteFinderViewController.m in Sources */,
+				00454B051D5A18C600A3513D /* TYGooglePlacesApiClient.m in Sources */,
 				00DF967E1D58BC1E0056022E /* ViewController.m in Sources */,
+				00454B0B1D5A18E900A3513D /* TYGooglePlace.m in Sources */,
+				00454B081D5A18D800A3513D /* TYGoogleAutoCompleteResult.m in Sources */,
 				00DF967B1D58BC1E0056022E /* AppDelegate.m in Sources */,
 				00DF96781D58BC1E0056022E /* main.m in Sources */,
 			);
@@ -416,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapkitAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.MapkitAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapkitAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.MapkitAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +542,7 @@
 				00DF96A21D58BC1E0056022E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00DF96A31D58BC1E0056022E /* Build configuration list for PBXNativeTarget "MapkitAPITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +551,7 @@
 				00DF96A51D58BC1E0056022E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00DF96A61D58BC1E0056022E /* Build configuration list for PBXNativeTarget "MapkitAPIUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +560,7 @@
 				00DF96A81D58BC1E0056022E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
